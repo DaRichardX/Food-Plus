@@ -1,0 +1,89 @@
+# Foodname: The name of the food
+# Foodlore: The lore of that food
+# Foodhunger: The number of half-hungers that that food will give you (2 = 1 hunger icon)
+# Crafting: The crafting recipe (Putting an "a" means no item is needed in this space)
+# The item names are all listed here: http://kiwike.se/wiki/index.php/Item_Names
+# Ingredients: The ingredients that the icons in "crafting" correspond to
+# Playername: The name of the player who the food is based off. Look here for a list of possible player heads:
+# http://www.planetminecraft.com/blog/minecraft-playerheads-database-85-heads-tutorial-included/
+# Strawberries: Whether strawberries are enabled
+# Strawberry-Chance: If they are enabled, what are the chances of picking one up? (Every x destroyed)
+
+Strawberries: True
+Strawberry-chance: 10
+Strawberry-hunger: 3
+Strawberry-playername: HamOmlet
+foods:
+  donut:
+    foodname: Donut
+    foodlore: Mmm ...
+    foodhunger: 5
+    crafting:
+      - ggg
+      - gsg
+      - ggg
+    ingredients:
+      g: WHEAT
+      s: SUGAR
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkYTU0ZmYzNjZlNzM4ZTMxZGU5MjkxOTk4NmFiYjRkNTBjYTk0NGZhOTkyNmFmNjM3NThiNzQ0OGYxOCJ9fX0=
+  popcorn:
+    foodname: Popcorn
+    foodlore: Pop Pop Pop
+    foodhunger: 3
+    crafting:
+      - aaa
+      - gwg
+      - aga
+    ingredients:
+      g: PAPER
+      w: WHEAT
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViZjRiZDhkMjE2OWYxMDI3MzhiZmUyYmY3Y2ZlZDY5NTc3YjdjZjY3MjFhZmI3YTYyNGE4NTcwM2JiZDRiIn19fQ==
+  muffin:
+    foodname: Muffin
+    foodlore: Cookies in a paper liner!
+    foodhunger: 6
+    crafting:
+      - aaa
+      - gsg
+      - aga
+    ingredients:
+      g: PAPER
+      s: COOKIE
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI4NGU3N2I4OTMwYjBmMjlhYTY2Mjc5YzQxZDVlMTQ5YmVlMjYzZjIxZmUzNzI2MzZjYmY3NjhkYjljZWU0YSJ9fX0=
+  hamburger:
+    foodname: Hamburger
+    foodlore: A meal in a bun
+    foodhunger: 15
+    crafting:
+      - ggg
+      - sss
+      - ggg
+    ingredients:
+      g: WHEAT
+      s: COOKED_BEEF
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzM2NlM2FkOWU2Mzg2OGM1YzhlMWM3MzEwYTk3NjdmY2FhZGVjNmFiYzkxZjhiZTcyY2ZhMmVjMWY5In19fQ==
+  cake:
+    foodname: Mini Cake
+    foodlore: For on the go
+    foodhunger: 9
+    crafting:
+      - eaa
+      - waa
+      - saa
+    ingredients:
+      e: EGG
+      s: SUGAR
+      w: WHEAT
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTIxZDhkOWFlNTI3OGUyNmJjNDM5OTkyM2QyNWNjYjkxNzNlODM3NDhlOWJhZDZkZjc2MzE0YmE5NDM2OWUifX19
+  taco:
+    foodname: Taco
+    foodlore: Pure Tasty
+    foodhunger: 5
+    crafting:
+      - aaa
+      - sss
+      - ggg
+    ingredients:
+      g: WHEAT
+      s: GRILLED_PORK
+    playername: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFkN2MwYTA0ZjE0ODVjN2EzZWYyNjFhNDhlZTgzYjJmMWFhNzAxYWIxMWYzZmM5MTFlMDM2NmE5Yjk3ZSJ9fX0=
